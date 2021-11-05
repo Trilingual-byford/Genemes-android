@@ -1,4 +1,4 @@
-package com.malygos.gnemes.data.entity
+package com.byford.genemes_android.network.model
 
 data class UserAuthInfo (
     val email:String,

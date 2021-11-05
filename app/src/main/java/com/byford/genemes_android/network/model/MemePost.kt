@@ -1,8 +1,8 @@
 package com.malygos.gnemes.data.entity
 
 import android.os.Parcelable
-import androidx.room.*
-import com.byford.genemes_android.persistence.MemeDataConverter
+//import androidx.room.*
+//import com.byford.genemes_android.persistence.MemeDataConverter
 import kotlinx.android.parcel.Parcelize
 
 //{
@@ -31,10 +31,10 @@ import kotlinx.android.parcel.Parcelize
 //    ]
 //},
 @Parcelize
-@Entity(tableName = "memes")
-@TypeConverters(MemeDataConverter::class)
+//@Entity(tableName = "memes")
+//@TypeConverters(MemeDataConverter::class)
 data class MemePost(
-    @PrimaryKey
+//    @PrimaryKey
     var id: String,
     var postId: String?,
     var Difficulty: Byte,
